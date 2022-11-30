@@ -1,0 +1,50 @@
+body{
+    padding: 10px;
+    
+    
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas:  
+        "textbox image"
+        "textbox results"
+        "textbox results"
+        "footer footer"
+}
+
+#image{
+    grid-area: image;
+}
+
+
+#textboxes{
+    width: 300px;
+    grid-area: textbox;
+
+}
+
+::placeholder{
+    color: black;
+}
+
+#results{
+    padding-left: 150px;
+    font-size: 28px;
+    grid-area: results;   
+    
+}
+
+#btn1{
+    width: 300px;
+    height: 40px;
+    font-size: 28px;
+}
+
+#source{
+    grid-area: footer;
+    padding: 30px;
+    font-size: larger;
+}
+
